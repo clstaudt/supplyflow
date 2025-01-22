@@ -1,0 +1,19 @@
+name: supplyflow
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.12
+  - scipy
+  - pandas
+  - seaborn
+  - altair
+  - tqdm
+  - loguru
+  - pandera
+  - pytest
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+    - -e .

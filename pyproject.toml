@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "supplyflow"
+version = "0.2"
+description = "Supply chain automation and optimization tools."
+authors = ["Christian Staudt <mail@clstaudt.me>"]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+scipy = "*"
+pandas = "*"
+seaborn = "*"
+altair = "*"
+tqdm = "*"
+loguru = "*"
+pandera = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+jupyter = "*"
+ipykernel = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
