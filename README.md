@@ -1,5 +1,11 @@
 # supplyflow
 
+<div style="border: 1px solid orange; padding: 10px; margin-bottom: 10px;">
+  <p style="margin: 0;">
+   ⚠️  This is an incomplete and currently unmaintained implementation for educational purposes. It is not ready for production use, but should provide a good starting point for your own implementation, or ideally your contribution to continue development. 
+  </p>
+</div>
+
 ## Introduction
 
 `supplyflow` is a Python library for the automated management and optimization of supply chains and inventories.
